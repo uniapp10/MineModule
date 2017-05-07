@@ -1,0 +1,26 @@
+PODS:
+  - LoginModule (0.0.16):
+    - LoginModule/Category (= 0.0.16)
+    - LoginModule/LoginModule (= 0.0.16)
+  - LoginModule/Category (0.0.16)
+  - LoginModule/LoginModule (0.0.16)
+
+DEPENDENCIES:
+  - LoginModule (from `https://github.com/zhudong10/LoginModule`, tag `0.0.16`)
+
+EXTERNAL SOURCES:
+  LoginModule:
+    :git: https://github.com/zhudong10/LoginModule
+    :tag: 0.0.16
+
+CHECKOUT OPTIONS:
+  LoginModule:
+    :git: https://github.com/zhudong10/LoginModule
+    :tag: 0.0.16
+
+SPEC CHECKSUMS:
+  LoginModule: 1da735c9162bfcc32f25062fe4f7b481c148c6ed
+
+PODFILE CHECKSUM: b32c149591cb950de78594f0601e7b084fe2f8c6
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,40 @@
+{
+  "name": "LoginModule",
+  "version": "0.0.16",
+  "summary": "LoginModule for iOS project.",
+  "description": "LoginModule",
+  "homepage": "https://github.com/zhudong10/LoginModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "prefix_header_file": "LoginModule/ZDPrefixHeader.pch",
+  "authors": {
+    "zhudong": "zhudongdong@91guoxin.com"
+  },
+  "source": {
+    "git": "https://github.com/zhudong10/LoginModule",
+    "tag": "0.0.16"
+  },
+  "source_files": "LoginModule/LoginModule.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  },
+  "subspecs": [
+    {
+      "name": "LoginModule",
+      "source_files": "LoginModule/LoginUI/**/*.{h,m}",
+      "resources": [
+        "LoginModule/Login.xcassets",
+        "LoginModule/LoginUI/**/*.xib"
+      ]
+    },
+    {
+      "name": "Category",
+      "source_files": "LoginModule/Category/**/*.{h,m}"
+    }
+  ]
+}

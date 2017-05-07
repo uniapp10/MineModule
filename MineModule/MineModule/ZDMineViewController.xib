@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZDMineViewController">
+            <connections>
+                <outlet property="iconV" destination="vEx-tm-23d" id="wad-QV-RlV"/>
+                <outlet property="tableView" destination="u9Z-Yd-3g3" id="evS-ZH-U99"/>
+                <outlet property="view" destination="iN0-l3-epB" id="hUz-Kf-YPE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="vEx-tm-23d">
+                    <rect key="frame" x="147" y="100" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="JoB-Oi-bmD"/>
+                        <constraint firstAttribute="width" constant="80" id="OSr-RJ-7Vw"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="u9Z-Yd-3g3">
+                    <rect key="frame" x="0.0" y="224" width="375" height="443"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="u9Z-Yd-3g3" firstAttribute="top" secondItem="vEx-tm-23d" secondAttribute="bottom" constant="44" id="3Fb-Ml-Pfj"/>
+                <constraint firstItem="vEx-tm-23d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="BnO-t8-Kef"/>
+                <constraint firstAttribute="trailing" secondItem="u9Z-Yd-3g3" secondAttribute="trailing" id="GsS-pk-Iwy"/>
+                <constraint firstItem="vEx-tm-23d" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ihx-vv-XjR"/>
+                <constraint firstAttribute="bottom" secondItem="u9Z-Yd-3g3" secondAttribute="bottom" id="Rpy-Yj-1hH"/>
+                <constraint firstItem="u9Z-Yd-3g3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hux-Rm-2Ey"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="0" width="440" height="448"/>
+    </resources>
+</document>
